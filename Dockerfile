@@ -15,6 +15,7 @@ RUN apt-get install -y --no-install-recommends\
                     clang-10 \
                     build-essential \
                     cmake \
+		    libboost-all-dev \
                     unzip \
                     tar \
                     ca-certificates && \
